@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gridContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black; /* Optional: border for the grid */
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 40px; /* 640px / 16 */
+    height: 40px; /* 640px / 16 */
+
+    background-color: #ccc;
+    border: 1px solid; /*Border to create space between squares */
+}
